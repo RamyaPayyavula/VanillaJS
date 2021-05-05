@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body onload="fourCorners.onReset();">
+        <button class="reset" onclick="fourCorners.onReset();">Reset Game</button>
+        <div id="fourCorners">
+            <div id="north" class="players-list">
+                <ul id='ul-north'>
+
+                </ul>
+            </div><br/>
+            <button id="north-button" onclick="fourCorners.onButtonClick('north');">North</button><br/>
+            <div style="margin:12px 0px; display: flex;">
+                <div id="west"  class="players-list">
+                    <ul id='ul-west'>
+
+                    </ul>
+                </div>
+                <button id="west-button" class="button-east-west" onclick="fourCorners.onButtonClick('west');">West</button>
+                <button id="east-button" class="button-east-west" onclick="fourCorners.onButtonClick('east');">East</button>
+                <div id="east" class="players-list">
+                    <ul id='ul-east'>
+
+                    </ul>
+                </div>
+            </div>
+            <button id="south-button" style="margin-bottom:18px;" onclick="fourCorners.onButtonClick('south');">South</button><br/>
+            <div id="south" class="players-list">
+                <ul id='ul-south'>
+
+                </ul>
+            </div><br/>   
+        </div>
+    </body>
+</html>

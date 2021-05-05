@@ -1,0 +1,35 @@
+.players-list {
+    width: 150px;
+    min-height: 100px;
+    background: white;
+    margin: auto;
+    padding:4px;
+}
+
+body {
+    background: aliceblue;
+    text-align: center;
+    margin-top:100px;
+}
+
+.button-east-west {
+    margin-right: 10px;
+    height: auto;
+    margin: auto;
+}
+
+#east, #west{
+    margin:auto 0px;
+}
+
+.reset{
+    margin:24px;
+}
+
+ul{
+    padding-left: 8px;
+}
+li{
+    display: block;
+    text-align: left;
+}

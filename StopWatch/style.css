@@ -1,0 +1,17 @@
+body{
+    background-color: darkgray;
+}
+#stopwatch{
+    background-color: black;
+    color: green;
+    font-weight: 500;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.stopwatch-container{
+    margin: 0 auto;
+    width: 180px;
+    text-align: center;
+}

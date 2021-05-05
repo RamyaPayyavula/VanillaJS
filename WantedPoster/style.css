@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Ewert);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+
+ body{
+    background:url('https://www.101computing.net/wp/wp-content/uploads/wood.jpg');
+}
+.poster{
+    width:50%;
+    font-size: larger;
+    text-align: center;
+    margin: 0 auto;
+    background: url('https://media.istockphoto.com/photos/old-yellowed-vintage-parchment-paper-picture-id177434429?k=6&m=177434429&s=170667a&w=0&h=YosZ_Y_l-BKQ8Ml-SMDFUl8kPqoGA1V-pzmPj01EPlY=');
+}
