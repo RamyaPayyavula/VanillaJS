@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+.create-container {
+    display: inline-flex;
+    margin: 0 auto;
+}
+.text-area {
+    margin-right: 24px;;
+}
+.todo-list-item {
+    width: 80%;
+    height: auto;
+    padding: 8px;
+    background: aliceblue;
+    margin: 8px auto;
+}
+img {
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
